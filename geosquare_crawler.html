@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>geosquare_crawler.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #007BFF; color: white; }
+        .back { margin-top: 20px; display: block; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>geosquare_crawler.py</h1>
+        <table>
+            <tr><th>Column Name</th><th>Value</th></tr>
+<tr><td>Script Name</td><td>geosquare_crawler.py</td></tr>
+<tr><td>Overview</td><td>Recursively crawls web pages from a given starting URL, extracting and saving links.</td></tr>
+<tr><td>Prerequisites</td><td>Python 3.x, Selenium, Pandas, JSON, WebDriverManager.</td></tr>
+<tr><td>Installation</td><td>pip install selenium pandas webdriver-manager</td></tr>
+<tr><td>Global Variables</td><td>Base URL, working directory for saving state and results, Selenium WebDriver setup.</td></tr>
+<tr><td>Functions</td><td>setup_driver (configures WebDriver), extract_links (retrieves all links from a page), recursive_crawl (performs depth-first link extraction).</td></tr>
+<tr><td>Error Handling</td><td>Handles page load detection, retries failed extractions, saves state to resume crawling.</td></tr>
+<tr><td>Output</td><td>Extracted links are saved in CSV files, discovered links in JSON, and state in a checkpoint file.</td></tr>
+<tr><td>Execution</td><td>Run using `python geosquare_crawler.py`.</td></tr>
+<tr><td>Notes</td><td>Resumes from last saved state, avoids duplicate crawling, logs visited URLs.</td></tr>
+        
+        </table>
+        <a class="back" href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asr_main_30_3_2024.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #007BFF; color: white; }
+        .back { margin-top: 20px; display: block; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>asr_main_30_3_2024.py</h1>
+        <table>
+            <tr><th>Column Name</th><th>Value</th></tr>
+<tr><td>Script Name</td><td>asr_main_30_3_2024.py</td></tr>
+<tr><td>Overview</td><td>Scrapes assessment-related data from the Maharashtra government website using Selenium.</td></tr>
+<tr><td>Prerequisites</td><td>Python 3.x, Google Chrome, ChromeDriver, Selenium, pandas, requests, google-cloud-storage, OpenCV.</td></tr>
+<tr><td>Installation</td><td>pip install selenium pandas requests google-cloud-storage opencv-python</td></tr>
+<tr><td>Global Variables</td><td>Dictionary mapping numeric values to year ranges, district name, year selection, CSV filename, headless mode.</td></tr>
+<tr><td>Functions</td><td>get_proxy_driver (sets up ChromeDriver), checkloading (waits for page load), main_scrap (performs scraping).</td></tr>
+<tr><td>Error Handling</td><td>Retries element selection on failure, handles exceptions, logs errors in `{district_name}_error_villages.txt`.</td></tr>
+<tr><td>Output</td><td>Extracted data saved in `{year_dist[year_value]}_{district_name}.csv`, completed villages logged in `{district_name}_completed_villages.txt`.</td></tr>
+<tr><td>Execution</td><td>Run using `python asr_main_30_3_2024.py`.</td></tr>
+<tr><td>Notes</td><td>Runs in an infinite loop, can be modified for other districts and years.</td></tr>
+        
+        </table>
+        <a class="back" href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>

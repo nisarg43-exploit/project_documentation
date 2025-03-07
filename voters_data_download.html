@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>voters_data_download.py</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; padding: 20px; background-color: #f4f4f4; }
+        .container { max-width: 900px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #007BFF; color: white; }
+        .back { margin-top: 20px; display: block; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>voters_data_download.py</h1>
+        <table>
+            <tr><th>Column Name</th><th>Value</th></tr>
+<tr><td>Script Name</td><td>voters_data_download.py</td></tr>
+<tr><td>Overview</td><td>Automates the downloading of voter data PDFs from the Election Commission of India website.</td></tr>
+<tr><td>Prerequisites</td><td>Python 3.x, Selenium, OpenCV, Requests, Google Cloud Storage, Pandas.</td></tr>
+<tr><td>Installation</td><td>pip install selenium opencv-python requests google-cloud-storage pandas</td></tr>
+<tr><td>Global Variables</td><td>Google Cloud Storage credentials, input district list, captcha OCR model.</td></tr>
+<tr><td>Functions</td><td>get_proxy_driver (sets up ChromeDriver), main_scrap (fetches and downloads PDFs), foldercheck (manages file directories).</td></tr>
+<tr><td>Error Handling</td><td>Handles CAPTCHA solving using OCR, retries on failures, logs errors in processing.</td></tr>
+<tr><td>Output</td><td>Extracted voter PDFs saved locally and uploaded to Google Cloud Storage.</td></tr>
+<tr><td>Execution</td><td>Run using `python voters_data_download.py`.</td></tr>
+<tr><td>Notes</td><td>Runs in a loop, processes multiple districts and constituencies.</td></tr>
+        
+        </table>
+        <a class="back" href="index.html">Back to Home</a>
+    </div>
+</body>
+</html>
